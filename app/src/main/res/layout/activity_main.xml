@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appbasic.blendcam.opengl.MainActivity">
+
+
+   <RelativeLayout
+       android:id="@+id/main"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+
+       >
+
+   </RelativeLayout>
+
+   <Button
+       android:id="@+id/record"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Record"
+       android:layout_alignParentBottom="true"
+       android:layout_centerInParent="true"
+       />
+
+   <Button
+       android:id="@+id/take_snap"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Take Snap"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       />
+
+
+   <Button
+       android:id="@+id/switch_cam"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Switch Camera"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       />
+
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/button_environment"
+       android:text="Disable Environment"/>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/button_sticker"
+       android:text="Enable Sticker"
+       android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>
